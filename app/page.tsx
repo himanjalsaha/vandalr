@@ -24,7 +24,7 @@ export default function ComingSoon() {
       >
         <Image src="/macro.png" width={100} height={100} alt="logo" />
 
-        <div className="text-amber-400 flex justify-center items-center gap-2">
+        <div className="text-white flex justify-center items-center gap-2">
           <Image src={'/logo.png'} width={200} height={200} alt='logo' className='size-8'/>
           バンダルコア
         </div>
