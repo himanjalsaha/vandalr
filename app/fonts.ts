@@ -17,13 +17,13 @@ export const helvetica = localFont({
 })
 
 export const helveticaLight = localFont({
-  src: './Helvetica-Thin.ttf',
+  src: './CoolveticaLt-Regular.ttf',
   display: 'swap',
 })
 
 
 export const helveticabold = localFont({
-  src: './Helvetica-Bold.ttf',
+  src: './CoolveticaRg-Bold.ttf',
   weight: '700',
   display: 'swap',
 })
