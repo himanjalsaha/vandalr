@@ -6,7 +6,6 @@ import { motion } from 'framer-motion'
 import ContactButton from '@/components/Button'
 import { Instagram, Twitter } from 'lucide-react'
 import Link from 'next/link'
-import { BsBehance } from 'react-icons/bs'
 import { IoLogoBehance } from 'react-icons/io5'
 import { FaXTwitter } from 'react-icons/fa6'
 
