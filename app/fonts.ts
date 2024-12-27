@@ -15,3 +15,16 @@ export const helvetica = localFont({
   src: './Helvetica.ttf',
   display: 'swap',
 })
+
+export const helveticaLight = localFont({
+  src: './Helvetica-Thin.ttf',
+ 
+  display: 'swap',
+})
+
+
+export const helveticabold = localFont({
+  src: './Helvetica-Bold.ttf',
+  weight: '700',
+  display: 'swap',
+})
