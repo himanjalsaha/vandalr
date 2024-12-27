@@ -19,7 +19,7 @@ const staggerDelay = 0.2
 
 export default function ComingSoon() {
   return (
-    <div className="min-h-screen bg-[#0c0c0c] text-white flex flex-col">
+    <div className="h-[100svh] bg-[#0c0c0c] text-white flex flex-col">
       {/* Header */}
       <motion.header 
         className="p-6 flex justify-between items-center"
@@ -64,18 +64,18 @@ export default function ComingSoon() {
             >
               ✱
             </motion.span>
-            <span className={`text-4xl md:text-6xl text-[#bbbbbb] font-thin ${helveticaLight.className}`}>
+            <span className={`text-3xl md:text-5xl text-[#bbbbbb] font-thin ${helveticaLight.className} `}>
               RECONSTRUCTING
             </span>
           </motion.div>
           <motion.div 
-            className={`text-4xl font-bold md:text-6xl text-[#fff] tracking-wider ${helveticabold.className}`}
+            className={`text-4xl font-bold mx-6 md:mx-2  text-nowrap w-[200px]   md:text-6xl text-[#fff] tracking-wider ${helveticabold.className}`}
             variants={fadeInUp}
             initial="initial"
             animate="animate"
             transition={{ ...fadeInUp.transition, delay: staggerDelay * 2 }}
           >
-            COMING SOON
+            COMING  SOON
           </motion.div>
 
           <motion.div 
@@ -107,7 +107,7 @@ export default function ComingSoon() {
             rel="noopener noreferrer"
             className="opacity-40 hover:opacity-100 transition-opacity"
           >
-            <IoLogoBehance className='text-blue-500 size-8'/>
+            <IoLogoBehance className='size-8'/>
           </Link>
           <Link 
             href="https://x.com/vandalstudiosin?t=2L6Psa_2zLudj0WQ2jTm0Q&s=09" 
