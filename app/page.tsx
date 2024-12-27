@@ -25,7 +25,7 @@ export default function ComingSoon() {
         <div className={`relative z-10 text-center ${spaceGrotesk.className}`}>
           <div className="flex items-center gap-4 justify-center mb-4">
                         <span className="text-6xl md:text-8xl">*</span>
-            <span className="text-6xl md:text-8xl text-neutral-300 font-light tracking-tighter">
+            <span className="text-4xl md:text-8xl text-neutral-300 font-light tracking-tighter">
               RECONSTRUCTING
             </span>
 
