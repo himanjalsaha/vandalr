@@ -1,4 +1,4 @@
-import { inter, spaceGrotesk } from './fonts'
+import { spaceGrotesk } from './fonts'
 import Image from 'next/image'
 
 export default function ComingSoon() {
