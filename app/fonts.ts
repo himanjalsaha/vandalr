@@ -18,7 +18,6 @@ export const helvetica = localFont({
 
 export const helveticaLight = localFont({
   src: './Helvetica-Thin.ttf',
- 
   display: 'swap',
 })
 
