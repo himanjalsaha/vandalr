@@ -1,4 +1,5 @@
 import { Inter, Space_Grotesk } from 'next/font/google'
+import localFont from 'next/font/local'
 
 export const inter = Inter({
   subsets: ['latin'],
@@ -10,3 +11,7 @@ export const spaceGrotesk = Space_Grotesk({
   display: 'swap',
 })
 
+export const helvetica = localFont({
+  src: './Helvetica.ttf',
+  display: 'swap',
+})
